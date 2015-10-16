@@ -78,11 +78,29 @@ What's more, with our BizTalk API Apps you can scale to mature integration scena
 
 ## Understanding App Service Plans
 
+An [App Service plan](https://azure.microsoft.com/en-us/documentation/articles/azure-web-sites-web-hosting-plans-in-depth-overview/) represents a set of features and capacity that you can share across multiple apps in Azure App Service, including Web Apps, Mobile Apps, Logic Apps or API Apps. These plans support 5 pricing tiers (Free, Shared, Basic, Standard and Premium) where each tier has its own capabilities and capacity. Apps in the same subscription and geographic location can share a plan. All the apps sharing a plan can leverage all the capabilities and features defined by the plan's tier. All apps associated with a given plan run on the resources defined by the plan. For example, if your plan is configured to use two "small" instances in the standard service tier, all apps associated with that plan will run on both instances and will have access to the standard service tier functionality. Plan instances on which apps are running on are fully managed and highly available.
+
 ## App Service Architecture Overview
+
+
 
 ## Introduction to App Service Environment
 
+An [App Service Environment](https://azure.microsoft.com/en-us/documentation/articles/app-service-app-service-environment-intro/) is a Premium service plan option of Azure App Service that provides a fully isolated and dedicated environment for securely running Azure App Service apps at high scale, including Web Apps, Mobile Apps, and API Apps. 
+
+App Service Environments are ideal for application workloads requiring:
++ Very high scale
++ Isolation and secure network access
+
+App Service Environments are isolated to running only a single customer's applications, and are always deployed into a virtual network. Customers have fine-grained control over both inbound and outbound application network traffic, and applications can establish high-speed secure connections over virtual networks to on-premises corporate resources.
+
 ## Azure App Service Development Stacks Support
+
+The Azure App Service team passionately invests in a support model for [development stacks](https://azure.microsoft.com/en-us/blog/windows-azure-websites-development-stacks-support/) that allows your web apps to start running quickly and gives your web apps room to grow. There are a few basic principles we use for versioning and extensibility of development stacks and how these principles apply to your web apps. 
+
+Some development stacks we support such as PHP are designed to enable side by side versions. For these development stacks we provide a set of current versions that have been validated for our platform. We also establish a default so no input is required unless you prefer a specific version for compatibility reasons.
+
+Other development stacks such as .NET are designed to provide in-place upgrade of some versions (e.g. .NET 4.5). In this case we work hard to maintain a current view of the development stack and provide you with the features and benefits of the latest versions.
 
 ### Classic ASP  
 ### ASP.NET  
