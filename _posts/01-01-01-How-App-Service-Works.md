@@ -89,6 +89,7 @@ An [App Service plan](https://azure.microsoft.com/en-us/documentation/articles/a
 An [App Service Environment](https://azure.microsoft.com/en-us/documentation/articles/app-service-app-service-environment-intro/) is a Premium service plan option of Azure App Service that provides a fully isolated and dedicated environment for securely running Azure App Service apps at high scale, including Web Apps, Mobile Apps, and API Apps. 
 
 App Service Environments are ideal for application workloads requiring:
+
 + Very high scale
 + Isolation and secure network access
 
