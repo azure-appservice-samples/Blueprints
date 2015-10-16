@@ -25,13 +25,56 @@ Azure App Service is the only cloud service that integrates everything you need 
 [Azure App Service Web Apps](https://azure.microsoft.com/en-us/documentation/articles/app-service-web-overview/) is a fully managed platform that enables you to build, deploy and scale enterprise-grade web apps in seconds. Focus on your application code, and let Azure take care of the infrastructure to scale and securely run it for you. Web Apps is:
 
 + **Familiar and Fast** - Use your existing skills to code in your favorite language, framework, and IDE. With just a few clicks, add versioning, updating, single sign-on, identity broker, isolated storage, and performance monitoring to your existing web apps. Access a rich gallery to use as building blocks to accelerate your development. Experience unparalleled developer productivity with cutting edge capabilities like continuous integration, live-site debugging, and industry leading Visual Studio IDE.
+
 + **Enterprise Grade** - Web Apps is designed for building and hosting secure mission-critical applications. Build Active Directory integrated business apps that connect securely to on-premises resources, then host them on a secure cloud platform that is ISO, SOC2, and PCI compliant. All while enjoying enterprise level SLAs.
+
 + **Global Scale** - Web Apps is optimized to provide availability and automatic scale on a global datacenter infrastructure. Easily scale applications up or down on demand. With high availability provided within and across different geographical regions. Replicating data and hosting services in multiple locations is quick and easy, making expansion into new regions and geographies as simple as a mouse click.
 
-
 ### Mobile App
+
+[Mobile Apps in Azure App Service](https://azure.microsoft.com/en-us/documentation/articles/app-service-mobile-value-prop-preview/) offers a highly scalable, globally available mobile application development platform for Enterprise Developers and System Integrators that brings a rich set of capabilities to mobile developers. With Mobile Apps you can:
+
++ **Build native and cross platform apps** - whether you're building native iOS, Android, and Windows apps or cross-platform Xamarin or Cordova (Phonegap) apps, you can take advantage of App Service using native SDKs.
+
++ **Connect to your enterprise systems** - with Mobile Apps you can add corporate sign on in minutes, and connect to your enterprise on-premises or cloud resources.
+
++ **Connect to SaaS APIs easily** - with more than 40 SaaS API connectors, you can easily integrate your app with SaaS APIs your enterprise uses today. Want to update account status in both CRM and the billing system? Mobile Apps offer enterprise SaaS APIs at your fingertips.
+
++ **Build offline-ready apps with sync** - make your mobile workforce productive by building apps that work offline and use Mobile Apps to sync data in the background when connectivity is present with any of your enterprise data sources or SaaS APIs.
+
++ **Push Notifications to millions in seconds** - engage your customers with instant push notifications on any device, personalized to their needs, sent when the time is right.
+
 ### API App
+
+[Azure App Service API Apps](https://azure.microsoft.com/en-us/documentation/articles/app-service-api-apps-why-best-platform/) provides capabilities for developing, deploying, publishing, consuming and managing RESTful web APIs. App Service provides the following features available today in public preview:
+
++ **Easy consumption** - Integrated Swagger support makes your APIs easily consumable by a variety of clients. The API Apps SDK can generate client code for your APIs in a variety of languages including C#, Java, and Javascript.
+
++ **Simple access control** - Built-in authentication services support Azure Active Directory or third-party services such as Facebook and Twitter. You can protect an API app from unauthenticated access with no changes to your code. If you're familiar with the authentication services provided by Azure Mobile Services, API Apps builds on that framework and extends it to APIs hosted by API Apps. The App Service SDK also enables you to use a simplified syntax for authorization code. For more information, see Authentication for API apps and mobile apps in Azure App Service.
+
++ **Easy connection to SaaS platforms** - Connector API apps in the Azure Marketplace are provided by Microsoft and third parties to simplify the code you write for interacting with SalesForce, Office 365, Twitter, Facebook, Dropbox, and many others.
+
++ **Integration with Logic Apps** - API apps that you create can be consumed by App Service Logic Apps. 
+
++ **Visual Studio integration** - Dedicated tools in Visual Studio streamline the work of creating, deploying, debugging, and managing API apps.
+
 ### Logic App
+
+[Azure App Service Logic Apps](https://azure.microsoft.com/en-us/documentation/articles/app-service-logic-what-are-logic-apps/) allow developers to design workflows that start from a trigger and then execute a series of steps, each invoking an App Service API app whilst securely taking care of authentication and best practices like checkpointing and durable execution.
+
+If you want to automate any business process (e.g. find negative tweets and post to your internal slack channel or replicate new customer records from SQL, as they arrive, into your CRM system) Logic Apps makes integrating disparate data sources, from cloud to on-premises easy. Check out our connectors for more inspiration and get started now to see what you can do. 
+
+What's more, with our BizTalk API Apps you can scale to mature integration scenarios with the power of a rules engine, trader partner management and more.
+
++ **Easy to use design tools** - Logic Apps can be designed end-to-end in the browser. Start with a trigger - from a simple schedule to whenever a tweet appears about your company. Then orchestrate any number of actions using the rich gallery of connectors.
+
++ **Compose SaaS easily** - Even composition tasks that are easy to describe are difficult to implement in code. Logic Apps make it a cinch to connect disparate systems. Want to create a task in your CRM software that is based on the activity from your Facebook or Twitter accounts? Want to connect your cloud marketing solution to your on-premises billing system? Logic apps are the fastest, most reliable way to deliver solutions to these problems.
+
++ **Get started quickly from templates** - To help you get started we've provided a gallery of templates that allow you to rapidly create some common solutions. From advanced BizTalk solutions to simple SaaS connectivity, and even a few that are just 'for fun' - the gallery is the fastest way to understand the power of Logic Apps.
+
++ **Extensibility baked in** - Don't see the connector you need? Logic Apps are part of the App Service suite and designed to work with API apps; you can easily create your own API app to use as a connector. Build a new app just for you, or share and monetize in the marketplace.
+
++ **Real integration horsepower** - Start easy and grow as you need. Logic Apps can easily leverage the power of BizTalk, Microsoft's industry leading integration solution to enable integration professionals to build the solutions they need. Find out more about the BizTalk capabilities provided with App Services.
 
 ## Understanding App Service Plans
 
