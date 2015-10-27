@@ -3,6 +3,12 @@ layout: default
 description: "A quick brown fox jumps over the lazy dog"
 ---
 
+{% capture table_of_contents %} {% include toc.md %} {% endcapture %}
+
+<section id="toc">
+	{{ table_of_contents | markdownify }}
+</section>
+
 {% for post in site.posts reversed %}
 
   <section>
