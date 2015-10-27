@@ -1,3 +1,3 @@
 - [ ] Section 1:
-   - [ ] Chapter 1: 
+   - [x] Chapter 1: 
    - [ ] Chapter 2:
