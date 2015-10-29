@@ -1,3 +1,8 @@
+---
+layout: default
+description: "A quick brown fox jumps over the lazy dog"
+---
+
 # How App Service Works
 
 + [What is App Service?](#what-is-app-service)
